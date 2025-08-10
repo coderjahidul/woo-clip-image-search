@@ -18,6 +18,12 @@ if(!defined('ABSPATH')) exit;
 // include class-woo-clip-settings file
 require_once plugin_dir_path(__FILE__) . '/includes/class-woo-clip-settings.php';
 
+// include class-woo-clip-search file
+require_once plugin_dir_path(__FILE__) . '/includes/class-woo-clip-search.php';
+
 // Init Settings Page
 new Woo_CLIP_Settings();
+
+// Init Search
+new Woo_CLIP_Search();
 

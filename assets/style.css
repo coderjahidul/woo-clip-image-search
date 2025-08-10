@@ -1,0 +1,23 @@
+#clip-search-form {
+    margin-bottom: 15px;
+}
+#clip-results ul {
+    list-style: none;
+    padding: 0;
+}
+#clip-results li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#clip-results img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.price {
+    margin-left: auto;
+    color: green;
+    font-weight: bold;
+}
